@@ -33,7 +33,7 @@ apis:
   tags: Volumes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery/volumes/master/_listings/aws-ec2/action-describevolumes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery/volumes/master/_listings/aws-ec2/action-enablevolumeio-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
