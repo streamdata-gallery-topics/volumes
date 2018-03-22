@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVolumes&k=1:
+  /?Action=DescribeVolumes:
     get:
       summary: ' Describe Volumes '
       description: Describes an instance's Amazon EBS volumes
