@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeregisterVolume&k=1:
+  /?Action=DeregisterVolume:
     get:
       summary: ' Deregister Volume '
       description: Deregisters an Amazon EBS volume
