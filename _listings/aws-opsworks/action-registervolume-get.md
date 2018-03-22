@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=RegisterVolume&k=1:
+  /?Action=RegisterVolume:
     get:
       summary: ' Register Volume '
       description: Registers an Amazon EBS volume with a specified stack
