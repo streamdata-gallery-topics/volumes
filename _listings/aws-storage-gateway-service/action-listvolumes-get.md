@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=ListVolumes&k=1:
+  /?Action=ListVolumes:
     get:
       summary: ' List Volumes '
       description: Lists the iSCSI stored volumes of a gateway
