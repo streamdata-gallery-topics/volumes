@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UnassignVolume&k=1:
+  /?Action=UnassignVolume:
     get:
       summary: ' Unassign Volume '
       description: Unassigns an assigned Amazon EBS volume
