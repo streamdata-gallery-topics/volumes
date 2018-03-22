@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=EnableVolumeIO&k=1:
+  /?Action=EnableVolumeIO:
     get:
       summary: Enable Volume I O
       description: |-
