@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=UpdateVolume&k=1:
+  /?Action=UpdateVolume:
     get:
       summary: ' Update Volume '
       description: Updates an Amazon EBS volume's name or mount point
