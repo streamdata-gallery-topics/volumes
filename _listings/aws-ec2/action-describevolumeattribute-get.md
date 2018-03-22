@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeVolumeAttribute&k=1:
+  /?Action=DescribeVolumeAttribute:
     get:
       summary: Describe Volume Attribute
       description: Describes the specified attribute of the specified volume
