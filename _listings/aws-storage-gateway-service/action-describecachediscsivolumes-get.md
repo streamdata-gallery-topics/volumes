@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeCachediSCSIVolumes&k=1:
+  /?Action=DescribeCachediSCSIVolumes:
     get:
       summary: ' Describe Cached SCSI Volumes '
       description: Returns a description of the gateway volumes specified in the request
