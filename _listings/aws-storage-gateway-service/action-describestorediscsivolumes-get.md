@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DescribeStorediSCSIVolumes&k=1:
+  /?Action=DescribeStorediSCSIVolumes:
     get:
       summary: ' Describe Stored SCSI Volumes '
       description: Returns the description of the gateway volumes specified in the
