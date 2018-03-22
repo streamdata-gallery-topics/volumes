@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=DeleteVolume&k=1:
+  /?Action=DeleteVolume:
     get:
       summary: ' Delete Volume '
       description: Deletes the specified gateway volume that you previously created
