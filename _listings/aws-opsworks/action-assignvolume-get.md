@@ -10,7 +10,7 @@ produces:
 consumes:
 - application/json
 paths:
-  /?Action=AssignVolume&k=1:
+  /?Action=AssignVolume:
     get:
       summary: ' Assign Volume '
       description: Assigns one of the stack's registered Amazon EBS volumes to a specified
