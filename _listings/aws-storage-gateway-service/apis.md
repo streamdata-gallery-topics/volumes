@@ -20,8 +20,8 @@ tags:
 - Database
 - Data
 - Amazon Web Services
-created: "2018-03-22"
-modified: "2018-03-22"
+created: "2018-03-24"
+modified: "2018-03-24"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-storage-gateway-service/apis.yaml
 specificationVersion: "0.14"
 apis:
@@ -34,7 +34,7 @@ apis:
   tags: Volumes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-storage-gateway-service/action-listvolumes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-storage-gateway-service/action-deletevolume-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
