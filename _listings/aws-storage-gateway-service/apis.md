@@ -35,16 +35,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-storage-gateway-service/action-listvolumes-get.md
-- name: AWS Storage Gateway Service API Delete Volume
-  description: Deletes the specified gateway volume that you previously created using
-    the.
+- name: AWS Storage Gateway Service API Describe Cached SCSI Volumes
+  description: Returns a description of the gateway volumes specified in the request.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Storage-Content-Delivery_AWSStorageGateway.png
   humanURL: https://aws.amazon.com/storagegateway/
   baseURL: http:://{host}//
   tags: Volumes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-storage-gateway-service/action-deletevolume-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-storage-gateway-service/action-describecachediscsivolumes-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/storagegateway/latest/APIReference
