@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Describe Volumes
   version: 1.0.0
+  description: Describes an instance's Amazon EBS volumes.
 schemes:
 - http
 produces:
