@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Describe Volumes
   version: 1.0.0
+  description: Describes the specified EBS volumes.
 schemes:
 - http
 produces:
