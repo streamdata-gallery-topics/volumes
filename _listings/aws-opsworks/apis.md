@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-updatevolume-get.md
-- name: AWS OpsWorks API Deregister Volume
-  description: Deregisters an Amazon EBS volume.
+- name: AWS OpsWorks API Describe Volumes
+  description: Describes an instance's Amazon EBS volumes.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: Volumes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-deregistervolume-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-describevolumes-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
