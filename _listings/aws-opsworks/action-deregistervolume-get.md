@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Deregister Volume
   version: 1.0.0
+  description: Deregisters an Amazon EBS volume.
 schemes:
 - http
 produces:
