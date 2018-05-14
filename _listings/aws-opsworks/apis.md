@@ -27,7 +27,23 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-updatevolume-get.md
+- name: AWS OpsWorks API Assign Volume
+  description: Assigns one of the stack's registered Amazon EBS volumes to a specified
+    instance.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
+  humanURL: https://aws.amazon.com/opsworks/
+  baseURL: http:://{host}//
+  tags: Volumes
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-assignvolume-get.md
 x-common:
+- type: x-command-line-interface
+  url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
+- type: x-documentation
+  url: http://docs.aws.amazon.com/opsworks/latest/APIReference/Welcome.html
+- type: x-website
+  url: https://aws.amazon.com/opsworks/
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
 - type: x-documentation
