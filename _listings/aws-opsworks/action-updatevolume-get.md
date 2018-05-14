@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Update Volume
   version: 1.0.0
+  description: Updates an Amazon EBS volume's name or mount point.
 schemes:
 - http
 produces:
