@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Unassign Volume
   version: 1.0.0
+  description: Unassigns an assigned Amazon EBS volume.
 schemes:
 - http
 produces:
