@@ -34,15 +34,17 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-ec2/action-enablevolumeio-get.md
-- name: AWS EC2 API Describe Volumes
-  description: Describes the specified EBS volumes.
+- name: AWS EC2 API Enable Volume I O
+  description: |-
+    Enables I/O operations for a volume that had I/O operations disabled because the data on the
+          volume was potentially inconsistent.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Compute_AmazonEC2.png
   humanURL: https://aws.amazon.com/ec2/
   baseURL: http:://{host}//
   tags: Volumes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-ec2/action-describevolumes-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-ec2/action-enablevolumeio-get.md
 x-common:
 - type: x-code
   url: http://aws.amazon.com/code/Amazon-EC2/
