@@ -1,8 +1,11 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS EC2 API
+  title: AWS EC2 API Enable Volume I O
   version: 1.0.0
+  description: |-
+    Enables I/O operations for a volume that had I/O operations disabled because the data on the
+          volume was potentially inconsistent.
 schemes:
 - http
 produces:
