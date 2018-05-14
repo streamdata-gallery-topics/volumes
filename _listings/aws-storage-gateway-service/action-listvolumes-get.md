@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API List Volumes
   version: 1.0.0
+  description: Lists the iSCSI stored volumes of a gateway.
 schemes:
 - http
 produces:
