@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Delete Volume
   version: 1.0.0
+  description: Deletes the specified gateway volume that you previously created using
+    the.
 schemes:
 - http
 produces:
