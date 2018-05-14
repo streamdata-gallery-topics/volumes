@@ -1,8 +1,10 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Assign Volume
   version: 1.0.0
+  description: Assigns one of the stack's registered Amazon EBS volumes to a specified
+    instance.
 schemes:
 - http
 produces:
