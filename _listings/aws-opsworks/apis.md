@@ -27,15 +27,15 @@ apis:
   properties:
   - type: x-openapi-spec
     url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-updatevolume-get.md
-- name: AWS OpsWorks API Unassign Volume
-  description: Unassigns an assigned Amazon EBS volume.
+- name: AWS OpsWorks API Update Volume
+  description: Updates an Amazon EBS volume's name or mount point.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Management-Tools_AWSOpsWorks.png
   humanURL: https://aws.amazon.com/opsworks/
   baseURL: http:://{host}//
   tags: Volumes
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-unassignvolume-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/volumes/master/_listings/aws-opsworks/action-updatevolume-get.md
 x-common:
 - type: x-command-line-interface
   url: http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-welcome.html
