@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS Storage Gateway Service API
+  title: AWS Storage Gateway Service API Describe Cached SCSI Volumes
   version: 1.0.0
+  description: Returns a description of the gateway volumes specified in the request.
 schemes:
 - http
 produces:
