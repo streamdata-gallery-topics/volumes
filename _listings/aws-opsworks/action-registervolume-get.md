@@ -1,8 +1,9 @@
 ---
 swagger: "2.0"
 info:
-  title: AWS OpsWorks API
+  title: AWS OpsWorks API Register Volume
   version: 1.0.0
+  description: Registers an Amazon EBS volume with a specified stack.
 schemes:
 - http
 produces:
