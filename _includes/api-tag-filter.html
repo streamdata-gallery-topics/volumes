@@ -79,6 +79,7 @@
 
    <table border="0" align="center">
      <tr>
+     	
        {% if listing_type == 'topic' %}
          <td align="center">
              <form>
@@ -94,7 +95,11 @@
 
        <td align="center">
          <form>
-         <strong>Tag(s):</strong>
+           {% if listing_type == 'topic' %}
+              <strong>Tag(s):</strong>
+           {% else %}
+              <strong>Organization(s):</strong>
+           {% endif %}
          <select name="filter" id="tagfilter" onchange="filterbytag();">
          {% if listing_type == 'topic' %}
             {% assign navigation = site.data.topics | sort: 'label' %}
@@ -133,5 +138,4 @@
      </tr>
    </table>
  {% endif %}
-
  </div>
